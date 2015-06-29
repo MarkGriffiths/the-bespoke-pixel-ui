@@ -1,10 +1,11 @@
 {
-  "name": "the-bespoke-ui",
+  "name": "the-bespoke-pixel-ui",
   "theme": "ui",
   "version": "0.1.0",
   "description": "A soothing and less monochromatic Atom UI Theme",
   "license": "MIT",
   "repository": "https://github.com/MarkGriffiths/the-bespoke-ui",
+  "readmeFilename": "README.md",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
