@@ -1,11 +1,11 @@
 {
-  "name": "atom-dark-ui",
+  "name": "the-bespoke-ui",
   "theme": "ui",
-  "version": "0.49.0",
-  "description": "A dark UI theme for Atom",
+  "version": "0.1.0",
+  "description": "A soothing and less monochromatic Atom UI Theme",
   "license": "MIT",
-  "repository": "https://github.com/atom/atom-dark-ui",
+  "repository": "https://github.com/MarkGriffiths/the-bespoke-ui",
   "engines": {
-    "atom": ">0.40.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }

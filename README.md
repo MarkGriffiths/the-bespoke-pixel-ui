@@ -1,9 +1,7 @@
-# Atom Dark UI theme
+# The Bespoke UI
 
-A dark UI theme for Atom.
+A soothing, softer and easier-on-the-eye UI theme for long term coding, borrowing from many years of Sublime Edit use and customisation.
 
-This theme is installed by default with Atom and can be activated by going to
-the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
-_UI Themes_ drop-down menu.
+Colours are built relativistically using HSL, so it will be possible to adjust the whole interface from a simple settings, along with overall brightness.
 
-![](https://f.cloud.github.com/assets/671378/2265086/c6897dba-9e7b-11e3-945d-551cac610717.png)
+More to come soon...

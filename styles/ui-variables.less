@@ -1,9 +1,16 @@
 // Colors
 
-@text-color: #aaa;
-@text-color-subtle: #555;
-@text-color-highlight: #fff;
-@text-color-selected: @text-color-highlight;
+@the-bespoke-hue: 75;
+@the-bespoke-saturation: 6%;
+@the-bespoke-lightness: 14%;
+
+@base-background-color: hsl(75, 6%, 14%);
+@base-border-color: darken(@base-background-color, 10%);
+@text-color: hsl(0, 0%, 80%);
+
+@text-color-subtle: fade(@text-color, 40%);
+@text-color-highlight: lighten(@text-color, 20%);
+@text-color-selected: lighten(@text-color, 10%);
 
 @text-color-info: #5293d8;
 @text-color-success: #2BDA77;
@@ -23,41 +30,39 @@
 @background-color-highlight: rgba(255, 255, 255, 0.07);
 @background-color-selected: #4182C4;
 
-@app-background-color: #333;
+@app-background-color: lighten(@base-background-color, 5%);
 
-@base-background-color: lighten(@tool-panel-background-color, 5%);
-@base-border-color: rgba(0, 0, 0, 0.5);
+@pane-item-background-color: lighten(desaturate(@base-background-color, 5%), 7%);
+@pane-item-border-color: darken(@pane-item-background-color, 20%);
 
-@pane-item-background-color: @base-background-color;
-@pane-item-border-color: rgba(0, 0, 0, 0.5);
+@input-background-color: @base-background-color;
+@input-border-color: darken(@input-background-color, 20%);
 
-@input-background-color: #212224;
-@input-border-color: @base-border-color;
+@tool-panel-background-color: lighten(@base-background-color, 10%);
+@tool-panel-border-color: darken(@tool-panel-background-color, 20%);
 
-@tool-panel-background-color: #1d1f21;
-@tool-panel-border-color: @base-border-color;
+@inset-panel-background-color: darken(@base-background-color, 5%);
+@inset-panel-border-color: darken(@inset-panel-background-color, 20%);
 
-@inset-panel-background-color: #161719;
-@inset-panel-border-color: @base-border-color;
+@panel-heading-background-color: lighten(@base-background-color, 10%);
+@panel-heading-border-color: darken(@panel-heading-background-color, 10%);
 
-@panel-heading-background-color: #43484d;
-@panel-heading-border-color: fadein(@base-border-color, 10%);
-
-@overlay-background-color: #202123;
+@overlay-background-color: lighten(@base-background-color, 20%);
 @overlay-border-color: @background-color-highlight;
 
-@button-background-color: #43484d;
+@button-background-color: lighten(saturate(@base-background-color, 30%), 20%);
 @button-background-color-hover: lighten(@button-background-color, 5%);
-@button-background-color-selected: #5c6064;
+@button-background-color-selected: lighten(@button-background-color, 15%);
 @button-border-color: @base-border-color;
 
-@tab-bar-background-color: #222;
-@tab-bar-border-color: darken(@tab-background-color-active, 10%);
-@tab-background-color: #333;
-@tab-background-color-active: #222;
-@tab-border-color: #484848;
+@tab-bar-background-color: desaturate(@base-background-color, 30%);
+@tab-bar-border-color: fadeout(darken(@tab-bar-background-color, 30%), 60%);
 
-@tree-view-background-color: #303030;
+@tab-background-color: lighten(desaturate(@base-background-color, 10%), 10%);
+@tab-background-color-active: lighten(saturate(@base-background-color, 20%), 15%);
+@tab-border-color: lighten(@tab-background-color, 20%);
+
+@tree-view-background-color: darken(@base-background-color, 5%);
 @tree-view-border-color: @tool-panel-border-color;
 
 @scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
@@ -72,20 +77,20 @@
 
 // Sizes
 
-@font-size: 11px;
+@font-size: 12px;
 @input-font-size: 14px;
 
 @disclosure-arrow-size: 12px;
 
-@component-padding: 10px;
-@component-icon-padding: 5px;
+@component-padding: 8px;
+@component-icon-padding: 4px;
 @component-icon-size: 16px;
-@component-line-height: 25px;
-@component-border-radius: 2px;
+@component-line-height: 24px;
+@component-border-radius: 4px;
 
-@tab-height: 26px;
+@tab-height: 24px;
 
 
 // Other
 
-@font-family: 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+@font-family: 'SF UI Display', 'San Francisco Display', 'Helvetica Neue UI', 'Helvetica', Ubuntu, Cantarell, sans-serif;
