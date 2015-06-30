@@ -1,0 +1,11 @@
+@import "ui-variables";
+
+.settings-view select.form-control {
+	background: lighten(saturate(@base-background-color, 5%), 15%);
+	&:hover {
+		background: lighten(saturate(@base-background-color, 10%), 20%);
+	}
+	&:focus {
+		background: lighten(saturate(@base-background-color, 20%), 20%);
+	}
+}
