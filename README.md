@@ -6,6 +6,8 @@ Colours are built relativistically using HSL, so it will be possible to adjust t
 
 Other features:
 
-	- Sidebar fades in/out with focus.
+- Sidebar fades in/out with focus.
 
 More to come soon...
+
+![](http://markgriffiths.github.io/screenshots/the-bespoke-pixel-ui.png)
