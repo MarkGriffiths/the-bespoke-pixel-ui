@@ -1,17 +1,18 @@
 // Colors
+@import "hues.less";
 
-@base-background-color: hsl(75, 6%, 14%);
+@base-background-color: hsl(@lime,6%,14%);
 @base-border-color: darken(@base-background-color, 10%);
-@text-color: hsl(0, 0%, 80%);
+@text-color: hsl(@lime,6%,85%);
 
 @text-color-subtle: fade(@text-color, 40%);
 @text-color-highlight: lighten(@text-color, 20%);
-@text-color-selected: lighten(@text-color, 10%);
+@text-color-selected: lighten(@text-color, 5%);
 
-@text-color-info: #5293d8;
-@text-color-success: #2BDA77;
-@text-color-warning: #ff982d;
-@text-color-error: #c00;
+@text-color-info: hsl(@blue, 70%, 70%); //#5293d8;
+@text-color-success: hsl(@green, 70%, 50%); //#2BDA77;
+@text-color-warning: hsl(@orange, 70%, 50%);
+@text-color-error: hsl(@red, 70%, 50%);
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -19,12 +20,12 @@
 @text-color-modified: @text-color-warning;
 @text-color-removed: @text-color-error;
 
-@background-color-info: #0098ff;
-@background-color-success: #17ca65;
-@background-color-warning: #ffaa2c;
-@background-color-error: #c00;
-@background-color-highlight: rgba(255, 255, 255, 0.07);
-@background-color-selected: #4182C4;
+@background-color-info: hsl(@blue, 80%, 50%);
+@background-color-success: hsl(@green, 70%, 40%);
+@background-color-warning: hsl(@yellow, 70%, 40%);
+@background-color-error: hsl(@red, 70%, 40%);
+@background-color-highlight: rgba(255, 255, 255, 0.15);
+@background-color-selected: lighten(saturate(@base-background-color, 20%), 20%); //#4182C4;
 
 @app-background-color: lighten(@base-background-color, 5%);
 
@@ -43,7 +44,7 @@
 @panel-heading-background-color: lighten(@base-background-color, 10%);
 @panel-heading-border-color: darken(@panel-heading-background-color, 10%);
 
-@overlay-background-color: lighten(@base-background-color, 20%);
+@overlay-background-color: lighten(@base-background-color, 10%);
 @overlay-border-color: @background-color-highlight;
 
 @button-background-color: lighten(saturate(@base-background-color, 30%), 20%);
@@ -58,17 +59,17 @@
 @tab-background-color-active: lighten(saturate(@base-background-color, 20%), 15%);
 @tab-border-color: lighten(@tab-background-color, 20%);
 
-@tree-view-background-color: darken(@base-background-color, 5%);
+@tree-view-background-color: darken(@base-background-color, 2%);
 @tree-view-border-color: @tool-panel-border-color;
 
 @scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
 @scrollbar-color: rgba(92, 92, 92, 0.5);
 
-@ui-site-color-1: @background-color-success; // green
-@ui-site-color-2: @background-color-info; // blue
-@ui-site-color-3: @background-color-warning; // orange
-@ui-site-color-4: #db2ff4; // purple
-@ui-site-color-5: #f5e11d; // yellow
+@ui-site-color-1: hsl(@green, 80%, 40%); //green
+@ui-site-color-2: hsl(@blue, 90%, 60%); // blue
+@ui-site-color-3: hsl(@orange, 100%, 45%);// orange
+@ui-site-color-4: hsl(@purple, 80%, 60%); // purple
+@ui-site-color-5: hsl(@yellow, 100%, 55%); // yellow
 
 
 // Sizes
@@ -79,8 +80,8 @@
 @disclosure-arrow-size: 12px;
 
 @component-padding: 8px;
-@component-icon-padding: 4px;
-@component-icon-size: 16px;
+@component-icon-padding: 3px;
+@component-icon-size: 8px;
 @component-line-height: 24px;
 @component-border-radius: 4px;
 
