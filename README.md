@@ -7,7 +7,8 @@ Colours are built relativistically using HSL, so it will be possible to adjust t
 Other features:
 
 - Sidebar fades in/out with focus.
+- Set up for OS X 10.10 Yosemite and the 'El Capitan' 10.11 Developer Preview.
 
-More to come soon...
+More to come soon, including a companion syntax package...
 
 ![](http://markgriffiths.github.io/screenshots/the-bespoke-pixel-ui.png)
