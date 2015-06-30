@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "description": "A soothing and less monochromatic Atom UI Theme",
   "license": "MIT",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
   "repository": "https://github.com/MarkGriffiths/the-bespoke-ui",
   "readmeFilename": "README.md",
   "engines": {
