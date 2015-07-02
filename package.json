@@ -9,7 +9,7 @@
     "yosemite",
     "elcapitan"
   ],
-  "repository": "https://github.com/MarkGriffiths/the-bespoke-ui",
+  "repository": "https://github.com/MarkGriffiths/the-bespoke-pixel-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
