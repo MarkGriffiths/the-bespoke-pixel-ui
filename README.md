@@ -9,7 +9,7 @@ Other features:
 - Sidebar fades in/out with focus.
 - Set up for OS X 10.10 Yosemite and the 'El Capitan' 10.11 Developer Preview.
 
-Companion syntax theme: [the-bespoke-pixel-syntax](../../../the-bespoke-pixel-syntax)
+Companion syntax theme: [the-bespoke-pixel-syntax](http://atom.io/themes/the-bespoke-pixel-syntax)
 
 More to come as I find more that I need, or post questions, comments or pull requests on [Github](https://github.com/MarkGriffiths/the-bespoke-pixel-ui/issues).
 
