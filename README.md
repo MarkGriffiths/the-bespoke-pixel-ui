@@ -1,4 +1,4 @@
-# The Bespoke Pixel UI
+# ‘The Bespoke Pixel’ UI theme for Atom
 
 A soothing, softer and easier-on-the-eye UI theme for long term coding, borrowing from many years of Sublime Edit use and customisation. This is the theme I use for daily Atom use.
 
@@ -11,4 +11,4 @@ Other features:
 
 More to come soon, including a companion syntax package...
 
-![](http://markgriffiths.github.io/screenshots/the-bespoke-pixel-ui.png)
+![Screenshot](http://markgriffiths.github.io/screenshots/the-bespoke-pixel-ui.png)
