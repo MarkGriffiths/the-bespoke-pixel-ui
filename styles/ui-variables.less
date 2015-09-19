@@ -9,10 +9,10 @@
 @text-color-highlight: lighten(@text-color, 20%);
 @text-color-selected: lighten(@text-color, 5%);
 
-@text-color-info: hsl(@blue, 70%, 70%); //#5293d8;
-@text-color-success: hsl(@green, 70%, 50%); //#2BDA77;
-@text-color-warning: hsl(@orange, 70%, 50%);
-@text-color-error: hsl(@red, 70%, 50%);
+@text-color-info: hsl(@blue-hue, 70%, 70%);
+@text-color-success: hsl(@green-hue, 70%, 50%);
+@text-color-warning: hsl(@orange-hue, 70%, 50%);
+@text-color-error: hsl(@red-hue, 70%, 50%);
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -20,10 +20,10 @@
 @text-color-modified: @text-color-warning;
 @text-color-removed: @text-color-error;
 
-@background-color-info: hsl(@blue, 80%, 50%);
-@background-color-success: hsl(@green, 70%, 40%);
-@background-color-warning: hsl(@yellow, 70%, 40%);
-@background-color-error: hsl(@red, 70%, 40%);
+@background-color-info: hsl(@blue-hue, 80%, 50%);
+@background-color-success: hsl(@green-hue, 70%, 40%);
+@background-color-warning: hsl(@yellow-hue, 70%, 40%);
+@background-color-error: hsl(@red-hue, 70%, 40%);
 @background-color-highlight: rgba(255, 255, 255, 0.15);
 @background-color-selected: lighten(saturate(@base-background-color, 20%), 20%); //#4182C4;
 
@@ -65,11 +65,11 @@
 @scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
 @scrollbar-color: rgba(92, 92, 92, 0.5);
 
-@ui-site-color-1: hsl(@green, 80%, 40%); //green
-@ui-site-color-2: hsl(@blue, 90%, 60%); // blue
-@ui-site-color-3: hsl(@orange, 100%, 45%);// orange
-@ui-site-color-4: hsl(@purple, 80%, 60%); // purple
-@ui-site-color-5: hsl(@yellow, 100%, 55%); // yellow
+@ui-site-color-1: hsl(@green-hue, 80%, 40%); //green
+@ui-site-color-2: hsl(@blue-hue, 90%, 60%); // blue
+@ui-site-color-3: hsl(@orange-hue, 100%, 45%);// orange
+@ui-site-color-4: hsl(@purple-hue, 80%, 60%); // purple
+@ui-site-color-5: hsl(@yellow-hue, 100%, 55%); // yellow
 
 
 // Sizes
