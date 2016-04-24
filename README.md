@@ -13,4 +13,4 @@ Companion syntax theme: [the-bespoke-pixel-syntax](http://atom.io/themes/the-bes
 
 More to come as I find more that I need, or post questions, comments or pull requests on [Github](https://github.com/MarkGriffiths/the-bespoke-pixel-ui/issues).
 
-![Screenshot](http://markgriffiths.github.io/screenshots/the-bespoke-pixel-ui.png)
+![Screenshot](https://raw.githubusercontent.com/MarkGriffiths/the-bespoke-pixel-ui/master/media/the-bespoke-pixel-ui.png)
