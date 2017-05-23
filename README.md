@@ -1,5 +1,7 @@
 # ‘The Bespoke Pixel’ UI theme for Atom
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MarkGriffiths/the-bespoke-pixel-ui.svg)](https://greenkeeper.io/)
+
 A soothing, softer and easier-on-the-eye UI theme for long coding sessions, borrowing from many years of Sublime Edit use and customisation. This is the theme I use now for daily Atom use.
 
 Based on 'Atom Dark UI', colours are built relativistically using HSL, so it will be possible to adjust the whole interface from a simple setting, along with overall brightness. For now, these can be found in 'styles/hues.less' until I can find an elegant way of providing configurable settings that don't require a restart or an ugly reload.
